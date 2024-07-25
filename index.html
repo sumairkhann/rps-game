@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>Logo</nav>
+    </header>
+    <section class="hero-section">
+      <div class="container1">
+        <div class="images-container">
+          <div
+            class="imgs rock hidden"
+            data-item-name="rock"
+            data-player="p1"
+          ></div>
+          <div
+            class="imgs paper hidden"
+            data-item-name="paper"
+            data-player="p1"
+          ></div>
+          <div
+            class="imgs scissors hidden"
+            data-item-name="scissors"
+            data-player="p1"
+          ></div>
+        </div>
+      </div>
+      <div class="container2">
+        <div class="images-container">
+          <div
+            class="imgs rock hidden disable"
+            data-item-name="rock"
+            data-player="p2"
+          ></div>
+          <div
+            class="imgs paper hidden disable"
+            data-item-name="paper"
+            data-player="p2"
+          ></div>
+          <div
+            class="imgs scissors hidden disable"
+            data-item-name="scissors"
+            data-player="p2"
+          ></div>
+        </div>
+      </div>
+      <div class="button-container">
+        <h1 class="message hidden">You Win!</h1>
+
+        <button class="btn play bg-color-1">Play</button>
+        <button class="btn restart bg-color-2 hidden">Play Again</button>
+        <button class="btn cancel bg-color-3 hidden">Cancel</button>
+      </div>
+    </section>
+  </body>
+  <script src="./script.js"></script>
+</html>
